@@ -1,0 +1,18 @@
+@media (max-width: 1600px) {
+  // .slider-sm_main-col {
+  //   @include make-col(8);
+  // }
+  // .item-col_right {
+  //   @include make-col-offset(1, $columns: $grid-columns);
+  // }
+} 
+
+
+@media (max-width: 1400px) {
+  .main-slider_slide {
+    @include make-col(1);
+  }
+  .main-slider_slide.center-slide {
+    @include make-col(10);
+  }
+}
